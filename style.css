@@ -1,0 +1,376 @@
+*{
+	font-family: Open Sans, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+.dark{
+	height: 100vh;
+	background-color: #7a7a7a;
+}
+.logotext{
+	width: 1200px;
+	height: 200px;
+	margin: auto;
+	text-align: center;
+	padding-top: 125px;
+}
+.nad{
+	color: #dfdfdf;
+	font-size: 28px;
+	letter-spacing: 3px;
+	font-weight: normal;
+}
+.logo{
+	font-size: 36px;
+	margin-top: 25px;
+	color: #efefef;
+}
+.pod{
+	color: #bfbfbf;
+	font-size: 28px;
+	font-weight: normal;
+	margin-top: 25px;
+}
+.pause{
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	margin-top: 50px;
+}
+img{
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	clear: both;
+}
+.forma{
+	text-align: center;
+	margin-top: 100px;
+}
+input{
+	padding: 13px;
+	width: 190px;
+	font-size: 16px;
+	outline: none;
+	border: none;
+	position: relative;
+}
+.sub{
+	color: #fdfdfd;
+	background-color: #1dda99;
+}
+.gr{
+	color: #1dda99; 
+}
+span{
+	color: #fdfdfd;
+}
+.podtext{
+	text-align: center;
+	margin-top: 50px;
+}
+.inp1{
+	left: 6px;
+}
+.inp2{
+	left: 3px;
+}
+.sredner{
+	height: 125px;
+	background-color: #fdfdfd;
+}
+.gridok{
+	display: grid;
+	grid-template-columns: 20% 5% 25% 25% 15% 10%; 
+	height: 125px;
+	text-align: center;
+}
+.inf{
+	width: 80px;
+	height: 80px;
+	padding-top: 25px;
+}
+.itemGr{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	text-align: center;
+	
+}
+.spanchik{
+	color: #000000;
+	font-size: 18px;
+}
+.face{
+	width: 50px;
+	height: 50px;
+	padding-top: 35px;
+}
+.itemGr :hover{
+	background-color: #bfbfbf;
+}
+.itemik{
+	padding-top: 50px;
+	transition: background-color 0.3s linear;
+	cursor: pointer;
+}
+.smile{
+	text-align: center;
+	height: 75px;
+	padding-top: 25px;
+}
+.services{
+	background-color: #efefef;
+}
+.ficha{
+	margin-top: 80px;
+	text-align: center;
+	letter-spacing: 5px;
+}
+.zhel{
+	color: #44e3a1;
+	font-size: 64px;
+}
+.do{
+	font-size: 64px;
+	color: #000000;
+}
+.doing{
+	text-align: center;
+	margin-top: 30px;
+}
+.cust{
+	display: grid;
+	height: 350px;
+	width: 1200px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	margin: auto;
+	margin-top: 100px;
+}
+.itemu{
+	display: grid;
+	grid-auto-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+.taital{
+	text-align: center;
+}
+.taitalik{
+	font-size: 26px;
+	color: black;
+	font-weight: bold;
+}
+.image{
+	text-align: center;
+}
+.podtaital{
+	text-align: center;
+	font-size: 20px;
+}
+.content{
+	background: white;
+}
+.asm{
+	margin-top: 0;
+}
+.pr{
+	color: #cfcfcf;
+}
+.emod{
+	text-align: center;
+	padding-top: 75px;
+}
+.square{
+	width: 950px;
+	height: 550px;
+	background-color: #efefef;
+	margin-left: 200px;
+	margin-top: 75px;
+	float: left;
+}
+.tochka{
+	width: 25px;
+	height: 25px;
+	background-color: black;
+	margin-top: 10px;
+	border-radius: 25px;
+}
+.tochki{
+	width: 25px;
+	float: right;
+	margin-top: 250px;
+	margin-right: 20px; 
+}
+.it{
+	padding-top: 15px;
+	padding-left: 15px;
+	height: 85px;
+	width: 385px;
+	border: solid black 1px;
+}
+.menu{
+	float: left;
+    margin-left: 75px;
+	margin-top: 75px;
+}
+.ch{
+	color: black;
+	font-weight: bold;
+}
+.ser{
+	color: #dfdfdf;
+}
+.tent{
+	height: 725px;
+}
+.provide{
+	background: #efefef;
+	text-align: center;
+}
+.karand{
+	padding-top: 75px;
+}
+.nizok{
+	height: 650px;
+}
+.kakhoch{
+	margin: auto;
+	width: 80%;
+	height: 625px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	margin-top: 50px;
+	grid-gap: 25px;
+}
+.itemork{
+	border: solid black 1px;
+	padding-top: 25px;
+	position: relative;
+}
+.Webok{
+	color: black;
+	font-size: 26px;
+	font-weight: bold;
+	margin: none;
+	padding-bottom: 35px;
+}
+.vidvig{
+	transition: opacity 0.2s linear;
+	width: 450px;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	padding-top: 100px;
+	margin-left: 100px;
+}
+.sew{
+	transition: background-color 0.3s linear;
+	padding-bottom: 10px;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 10px;
+}
+.polosa{
+	height: 1px;
+	background-color: #afafaf;
+}
+.sew:hover{
+	background-color: #dfdfdf;
+}
+.kas{
+	transition: opacity 0.2s linear;
+}
+.itemork:hover .vidvig{
+	opacity: 1;
+}
+.itemork:hover .kas{
+	opacity: 0;
+}
+.sewok{
+	position: relative;
+	bottom: 35px;
+	padding-bottom: 10px;
+	transition: background-color 0.3s linear;
+	font-size: 18px;
+	transition: bottom 0.3s linear;
+	text-align: center;
+	padding-top: 10px;
+}
+.itemork:hover .sewok{
+	bottom: 0;
+}
+.sewak{
+	position: relative;
+	bottom: 70px;
+	padding-bottom: 10px;
+	transition: background-color 0.3s linear;
+	font-size: 18px;
+	transition: bottom 0.3s linear;
+	text-align: center;
+	padding-top: 10px;
+}
+.itemork:hover .sewak{
+	bottom: 0;
+}
+
+.sewok:hover{
+	background-color: #dfdfdf;
+}
+.sewak:hover{
+	background-color: #dfdfdf;
+}
+.dvoetoch{
+	text-align: center;
+}
+button{
+	margin-top: 75px;
+	background-color: #fdfdfd;
+	width: 200px;
+	height: 50px;
+	outline: none;
+	border: 1px #dfdfdf solid;
+	transition: background-color 0.3s linear;
+}
+.ok{
+	background-color: #fdfdfd;
+	width: 200px;
+	height: 50px;
+	outline: none;
+	border: 1px #dfdfdf solid;
+	position: relative;
+	left: 20px;
+}
+.od{
+	position: relative;
+	right: 20px;
+}
+button:hover{
+	background-color: #44e3a1;
+}
+.video{
+	float: left;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+.vitext{
+ 	width: 400px;
+ 	float: right;
+ 	margin-right: 900px;
+	margin-top: 150px;
+}
+.vidos{
+	color: #757575;
+	font-size: 38px;
+	margin-bottom: 25px;
+}
+.vidoses{
+	color: #797575;
+
+}
+.flot{
+	float: left;
+	text-align: left;
+}
